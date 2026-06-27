@@ -1,4 +1,4 @@
-# Power market research — Michal Junek
+# Power market research - Michal Junek
 
 Quantitative power-market strategies and storage feasibility work, backtested on realised EPEX day-ahead auction data (2019–2026), built in Python.
 
