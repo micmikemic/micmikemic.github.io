@@ -15,21 +15,21 @@
   <p class="note">Three day-ahead strategies, built in Python on realised EPEX auction prices (2019&ndash;2026). Each links to a full two-page tearsheet with method, sensitivity and risk. Figures are per unit of position, costs included.</p>
 
   <div class="work">
-    <div class="t">Battery day-ahead arbitrage <span class="meta">— structural, LP / HiGHS</span></div>
+    <div class="t">Battery day-ahead arbitrage <span class="meta">- structural, LP / HiGHS</span></div>
     <p>A 1 MW / 2 MWh battery dispatched optimally against each day's auction curve. The edge is structural: more solar deepens the midday trough, so the spread a battery captures widens each year. Day-ahead only is the floor.</p>
     <div class="nums"><b>&euro;85.9k</b> / MW (DE-LU, 2025) &middot; <b>&euro;88.4k</b> / MW (CZ) &middot; <b>&euro;89.9k</b> 2026 YTD annualised</div>
     <a class="read" href="docs/battery_arbitrage.pdf">Read the tearsheet &rarr;</a>
   </div>
 
   <div class="work">
-    <div class="t">Solar cannibalisation spread <span class="meta">— structural, volume-neutral</span></div>
+    <div class="t">Solar cannibalisation spread <span class="meta">- structural, volume-neutral</span></div>
     <p>The same physics without owning a battery: sell the midday block, buy the evening block, equal size. No directional price exposure, only the intraday shape. The March&ndash;October solar season carries almost all of it.</p>
     <div class="nums"><b>+&euro;104/MWh</b> (DE-LU, 2025 Mar&ndash;Oct) &middot; <b>+&euro;70/MWh</b> 7-yr average &middot; <b>100%</b> Mar&ndash;Oct win rate, 4 years</div>
     <a class="read" href="docs/solar_cannibalisation.pdf">Read the tearsheet &rarr;</a>
   </div>
 
   <div class="work">
-    <div class="t">CZ&ndash;DE cross-border spread <span class="meta">— statistical, shown sceptically</span></div>
+    <div class="t">CZ&ndash;DE cross-border spread <span class="meta">- statistical, shown sceptically</span></div>
     <p>Fades dislocations in the coupled CZ / DE-LU spread back to parity. Shown with a paper-vs-tradable honesty check: the execution lag and costs roughly halve it. I treat this as a research lead, not a production strategy.</p>
     <div class="nums"><b>1.43</b> tradable Sharpe &middot; <b>1.1&ndash;1.8</b> bootstrap 90% CI &middot; <b>2.42</b> paper Sharpe (ceiling)</div>
     <a class="read" href="docs/cz_de_spread.pdf">Read the tearsheet &rarr;</a>
