@@ -2,7 +2,7 @@
 
 Quantitative power-market strategies and storage feasibility work, backtested on realised EPEX day-ahead auction data (2019–2026), built in Python.
 
-**Live page:** https://micmikemic.github.io/  *(replace USERNAME after publishing — see below)*
+**Live page:** https://micmikemic.github.io/  
 
 ## Contents
 
