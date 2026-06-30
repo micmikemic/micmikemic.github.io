@@ -20,7 +20,7 @@ PAPER (upper bound, NOT tradable)
     it. This is the variant that produced the Sharpe ~2.4 — treat it as
     the theoretical ceiling of the signal, nothing more.
 
-TRADABLE (what a desk could actually do with daily auctions)
+TRADABLE
     Timeline: spread for delivery day D-1 prints ~12:45 two days before
     D. The first auction still open after the signal exists is delivery
     day D (gate 12:00 on D-1). Enter the paired zonal position there —
