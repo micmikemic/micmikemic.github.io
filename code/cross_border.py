@@ -6,7 +6,7 @@ CZ and DE-LU are tightly coupled through flow-based market coupling
 and blows out when interconnector capacity binds. Questions:
 
   1. Descriptive: how often decoupled, in which hours, how fat are the
-     tails?  (-> dashboards)
+     tails?
   2. Tradable: does the daily average spread mean-revert *after costs
      and realistic execution timing*?
 
