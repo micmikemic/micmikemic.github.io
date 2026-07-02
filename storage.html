@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Storage feasibility — Michal Junek</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<nav><div class="wrap">
+  <a class="name" href="index.html">Michal Junek</a>
+  <a class="lnk" href="strategies.html">Strategies</a>
+  <a class="lnk active" href="storage.html">Storage</a>
+  <a class="lnk" href="about.html">About</a>
+  <a class="lnk" href="https://github.com/micmikemic/micmikemic.github.io/tree/main/code">Code</a>
+</div></nav>
+<main><div class="wrap">
+  <h1>Storage feasibility</h1>
+  <p class="note">A longer piece of work: a full techno-economic model, grounded in the same battery backtest as the trading strategies.</p>
+
+  <div class="work">
+    <div class="t">Substation to storage <span class="meta">— techno-economic, NPV / IRR, 3 scenarios + sensitivities</span></div>
+    <p>Is it worth turning decommissioned Czech substations (transformovny / rozvodny) into grid batteries instead of demolishing them? The edge is the existing grid connection: it skips the two-to-four-year connection queue and the capex that comes with it. In the base case that is decisive, not incremental &mdash; reuse earns a 12% IRR while the identical greenfield battery barely breaks even (roughly NPV-zero at an 8% discount rate). The reuse advantage is stable across scenarios because it is a capex-and-timing difference, not a revenue bet. A conditional yes: only for the larger distribution and transmission sites, and realistically built by the grid owner or a connection-holding partner &mdash; the pattern now playing out at Chvaletice, Kladno and V&iacute;tkovice.</p>
+    <div class="nums"><b>+&euro;2.6m</b> reuse NPV edge (base case) &middot; <b>12% vs 8% IRR</b> reuse vs greenfield &middot; 20 MW / 40 MWh representative site</div>
+    <p style="font-size:14px;color:#555;margin-top:6px">Day-ahead arbitrage is taken from my own LP battery backtest on realised CZ prices; balancing revenue, capex and the connection saving are parameterised from 2025&ndash;26 Czech market data, with explicit scenarios and sensitivities. Rev. 2 followed an adversarial model review: capacity is allocated between the merchant and balancing markets rather than double-counted, greenfield capex is phased, and ancillary rates are calibrated to 2026 auctions. The full model code is included in the appendix.</p>
+    <a class="read" href="docs/substation_to_storage.pdf">Read the thesis &rarr;</a>
+  </div>
+
+  <p class="note" style="margin-top:24px">The full model code is on <a href="https://github.com/micmikemic/micmikemic.github.io/tree/main/code">GitHub</a>.</p>
+  <a class="back" href="index.html">&larr; Back</a>
+</div></main>
+</body></html>
